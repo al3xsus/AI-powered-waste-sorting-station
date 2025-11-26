@@ -23,12 +23,6 @@ This is a concept for inexpensie and compact AI-powered waste sorting station, t
 
 ---
 
-# AI-generated possible images of station
+# AI-generated possible image of station
 
-![The garbage pile](./images/Old_wood_cabinet_without_doors_three_shelves_upper_shelf_is_the_tallest_has_a_big_display_and_speake_251756987.png "The garbage pile")
-
-![The garbage pile](./images/Old_wood_cabinet_without_doors_three_shelves_upper_shelf_is_the_tallest_has_a_big_display_and_speake_3002437353.png "The garbage pile")
-
-![The garbage pile](./images/Old_wood_cabinet_without_doors_three_shelves_upper_shelf_is_the_tallest_has_a_big_display_and_speake_3003982997.png "The garbage pile")
-
-![The garbage pile](./images/Old_wood_cabinet_without_doors_three_shelves_upper_shelf_is_the_tallest_has_a_big_display_and_speake_590303036.png "The garbage pile")
+![The station](./images/cover.png "The station")

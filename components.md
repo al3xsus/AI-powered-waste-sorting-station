@@ -1,7 +1,7 @@
 ## Components
 
 ---
-![Components](./images/photo-collage.png.png "Components")
+![Components](./images/components.png "Components")
 
 ### **1. Camera (with AI Image Recognition)**
 - **Source**: Cameras can be salvaged from **old smartphones, tablets, laptops**, or even **webcams**.

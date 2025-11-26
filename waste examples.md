@@ -1,8 +1,6 @@
 ## Waste examples
 
-![The garbage pile](./images/Garbage_pile_that_contains_small_electronics_Phones_chargers_headphones_small_remote_controls_tablets_2295816645.png "The garbage pile")
-
-![The garbage pile](./images/Garbage_pile_that_contains_small_electronics_Phones_chargers_headphones_small_remote_controls_tablets_4132450214.png "The garbage pile")
+![The garbage pile](./images/pile.png "The garbage pile")
 
 ### **1. Small Electronics (E-Waste)**
 - **Examples**: Phones, chargers, headphones, small remote controls, tablets.
