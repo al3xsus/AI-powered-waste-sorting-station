@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>AI-Powered Waste Sorting Station | Scalable Circular Economy Solution</title>
+    <meta name="description" content="A low-cost, scalable AI waste sorting station built from recycled COTS components. Improving recycling rates in high-traffic urban areas through automation.">
+    <meta name="keywords" content="AI waste sorting, recycling automation, circular economy, e-waste recycling, smart city, sustainable technology, salvaged hardware">
+    <meta name="author" content="Alexandr Lavrentyev">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-project-url.com/"> <meta property="og:title" content="AI-Powered Waste Sorting Station">
+    <meta property="og:description" content="Solving the recycling crisis with a corner-shop-sized station built from salvaged tech and powered by advanced AI.">
+    <meta property="og:image" content="https://placehold.co/1200x630/png?text=Project+Cover+Image"> <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="AI-Powered Waste Sorting Station">
+    <meta property="twitter:description" content="Solving the recycling crisis with a corner-shop-sized station built from salvaged tech and powered by advanced AI.">
+    <meta property="twitter:image" content="https://placehold.co/1200x630/png?text=Project+Cover+Image"> <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "AI-Powered Waste Sorting Station",
+      "description": "A compact, automated station that helps users sort waste into high-value recyclable categories using AI and sensors derived from salvaged electronics.",
+      "brand": {
+        "@type": "Brand",
+        "name": "CircularTech Initiative"
+      },
+      "potentialAction": {
+        "@type": "InvestAction",
+        "target": "https://your-project-url.com/#contact"
+      }
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-color: #006d45; /* Eco Green */
+            --secondary-color: #2c3e50; /* Dark Blue/Grey */
+            --accent-color: #f39c12; /* Orange/Gold for CTA */
+            --light-bg: #f4f7f6;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3 {
+            color: var(--secondary-color);
+        }
+        a {
+            text-decoration: none;
+            color: var(--primary-color);
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        /* Header & Nav */
+        header {
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        /* Hero Section */
+        #hero {
+            background: linear-gradient(rgba(0, 109, 69, 0.8), rgba(44, 62, 80, 0.8)), url('https://placehold.co/1920x1080/png?text=Blurred+City+Background'); /* REPLACE with a real background image */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        #hero h1 {
+            font-size: 3rem;
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+        #hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px auto;
+        }
+        .cta-button {
+            display: inline-block;
+            background: var(--accent-color);
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #d35400;
+        }
+        /* Sections */
+        section {
+            padding: 60px 0;
+        }
+        .section-bg {
+            background-color: var(--light-bg);
+        }
+        .flex-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+        }
+        .flex-col {
+            flex: 1;
+            min-width: 300px;
+        }
+        .stat-box {
+            background: #fff;
+            padding: 20px;
+            border-left: 5px solid var(--primary-color);
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+        /* Hardware List Styling */
+        .hardware-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .hardware-item {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .hardware-item i {
+            font-size: 2rem;
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+            display: block;
+            /* Placeholder for icons if you use FontAwesome later */
+            font-style: normal; 
+        }
+        /* Steps */
+        .step-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .step {
+            text-align: center;
+            flex-basis: 22%;
+            min-width: 200px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .step-number {
+            background: var(--primary-color);
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50%;
+            font-weight: bold;
+            margin: 0 auto 15px auto;
+        }
+        /* Contact/Footer */
+        #contact {
+            background: var(--secondary-color);
+            color: #fff;
+            text-align: center;
+        }
+        #contact h2 {
+            color: #fff;
+        }
+        footer {
+            background: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            #hero h1 { font-size: 2rem; }
+            nav ul { display: none; /* Hide nav on small screens for simplicity */ }
+            .logo { margin: auto; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">♻️ AI Circular Station</div>
+            <nav>
+                <ul>
+                    <li><a href="#problem">The Challenge</a></li>
+                    <li><a href="#solution">The Solution</a></li>
+                    <li><a href="#hardware">The Tech</a></li>
+                    <li><a href="#contact">Invest</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Closing the Recycling Loop with AI & Salvaged Hardware</h1>
+            <p>A scalable, low-cost smart station designed to turn complex mixed waste into high-value resources in high-traffic urban areas.</p>
+            <a href="#contact" class="cta-button">Power the Circular Economy</a>
+        </div>
+    </section>
+
+    <section id="problem">
+        <div class="container">
+            <h2>The Challenge: Valuable Waste is Going to Landfill</h2>
+            <div class="flex-row">
+                <div class="flex-col">
+                    <p>In developed countries, a massive portion of what ends up in landfills is actually recyclable. The main barriers are contamination, complex sorting rules, and a lack of convenient infrastructure.</p>
+                    <div class="stat-box">
+                        <span class="stat-number">30% to 75%</span>
+                        <p>Of landfill waste is recyclable, depending on the region.</p>
+                    </div>
+                    <p>We aspire to the high standards of zero-waste towns like <strong>Kamikatsu, Japan</strong> (45 sorting categories), but we need a system that doesn't rely solely on intense citizen discipline. We need automation.</p>
+                </div>
+                <div class="flex-col">
+                    <img src="https://placehold.co/600x400/e74c3c/ffffff?text=The+Problem:+Mixed+Waste" alt="Mixed waste in landfill" style="width: 100%; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solution" class="section-bg">
+        <div class="container">
+            <h2>The Concept: A Corner-Shop-Sized Smart Station</h2>
+            <div class="flex-row">
+                <div class="flex-col">
+                    <img src="https://placehold.co/600x400/006d45/ffffff?text=AI+Station+Concept+Image" alt="AI-Powered Waste Sorting Station Concept" style="width: 100%; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                </div>
+                <div class="flex-col">
+                    <p>We are building a small footprint station designed for high-foot-traffic areas like malls, large housing complexes, or supermarkets. It is designed to accept clean, dry waste that is often sorted improperly, such as e-waste, textiles, and complex plastics.</p>
+                    <ul>
+                        <li><strong>Convenient:</strong> Placed where people already go.</li>
+                        <li><strong>Scalable:</strong> Small footprint, easy to deploy.</li>
+                        <li><strong>Gamified:</strong> Users are rewarded with eco-points for correct sorting.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hardware">
+        <div class="container">
+            <h2>The Machine: Built from the Waste Stream</h2>
+            <p>Our biggest competitive advantage is cost and circularity. We don't just sort waste; the machine itself is built from salvaged Commercial Off-The-Shelf (COTS) components.</p>
+            
+            <div class="hardware-list">
+                <div class="hardware-item">
+                    <i>📺</i>
+                    <strong>Displays & Speakers</strong>
+                    <br>Salvaged TV or Laptop screens for user interaction.
+                </div>
+                <div class="hardware-item">
+                    <i>📷</i>
+                    <strong>AI Vision</strong>
+                    <br>Cameras repurposed from old smartphones and laptops.
+                </div>
+                <div class="hardware-item">
+                    <i>⚖️</i>
+                    <strong>Sensors</strong>
+                    <br>Weight sensors from digital scales; Optical sensors from scanners.
+                </div>
+                <div class="hardware-item">
+                    <i>🧲</i>
+                    <strong>Metal Detection</strong>
+                    <br>Strong magnets salvaged from old hard drives.
+                </div>
+                <div class="hardware-item">
+                    <i>🧠</i>
+                    <strong>Processing</strong>
+                    <br>Motherboards from repurposed laptops or tablets.
+                </div>
+            </div>
+            
+            <div style="margin-top: 30px; text-align: center;">
+                 <img src="https://placehold.co/800x300/2c3e50/ffffff?text=COTS+Components+Collage" alt="Collage of recycled electronic components" style="max-width: 100%; border-radius: 8px;">
+            </div>
+        </div>
+    </section>
+
+     <section id="algorithm" class="section-bg">
+        <div class="container">
+            <h2>How It Works: The AI Algorithm</h2>
+            <p>We make complex sorting simple for the user through sophisticated backend technology.</p>
+            <div class="step-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Arrival</h3>
+                    <p>User approaches the station with dry waste. The station greets them via the salvaged display.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>AI Scan</h3>
+                    <p>The user places an item on the sorting table. AI cameras identify the material and category.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Sorting Guide</h3>
+                    <p>The station indicates the correct bin (Glass, E-waste, Textile, etc.). Ambiguous items go to a holding area.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Reward</h3>
+                    <p>The user receives immediate feedback and 'green points'. Data is sent to the server.</p>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 20px;"><em>If the AI is confused, the user can ask for help, connecting to AGI or human assistance.</em></p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Are You Ready to Fund the Circular Future?</h2>
+            <p>This is more than just a recycling bin. It's a scalable infrastructure project designed to unlock the value in waste using affordable technology.</p>
+            <p>If you believe in this vision, let's talk.</p>
+            <br>
+            <a href="mailto:your-email@example.com" class="cta-button" style="background: #fff; color: var(--accent-color);">Contact the Project Lead</a>
+            <br><br>
+            <a href="https://github.com/al3xsus/AI-powered-waste-sorting-station" target="_blank" style="color: #fff; text-decoration: underline;">View Project on GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023-2024 AI Circular Station Project. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
